@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5b/Antennae_galaxies_%28captured_by_Chandra%2C_Hubble_and_Spitzer%29.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(241, 241, 241, 0.37);
+    background-size: 300px 100px;
+    text-align: right;
+    padding: 25px;
+    position: sticky;
+    margin: 1em;
+}
+
+#header-img {
+    width: 75px;
+    height: 75px;
+    float: left;
+    position: relative;
+    bottom: 1.2em;
+    left: -0.7em;
+}
+
+.nav-link{
+    font-size: 2em;
+    padding: 0.25em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-size: 2.1em;
+}
+
+.main-div{
+    margin: 1em;
+    background-color: rgba(241, 241, 241, 0.37);
+    text-align: center;
+}
