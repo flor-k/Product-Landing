@@ -2,8 +2,8 @@
     <html>
         <head>
             <meta charset="UTF-8">
-            <link href="Style/style.css" rel="stylesheet" type="text/css">
             <title>Planet First SRL</title>
+          <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         </head>
         <header id="header">
             <nav id="nav-bar">
@@ -11,9 +11,9 @@
                     <img src="Style/images/logo.png"  id="header-img" alt="Planet First Logo">
                 </div>
                 <div>
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#pricing">Pricing</a>
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a href="#features" class="nav-link">About</a>
+                    <a href="#video" class="nav-link">How it works</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
                 </div>
             </nav>
         </header>
@@ -22,45 +22,92 @@
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <label for="email"><h2>Handcrafted, home-made masterpieces</h2></label>
                     <input type="email" id="email" placeholder="Enter your email address"><br><br>
-                    <input type ="submit" id="submit">
+                    <input type ="submit" id="submit" action="https://www.freecodecamp.com/email-submit">
 
                 </form>
 
             </div>
 
+            <div class="container">
+                <section id="features">
+                    <div class="grid">
+                        <div class="property">
+                            <img src="Style/images/materials.png"  id="Material-logo" alt="Material-logo">
+                            <h2>Premium Materials</h2>
+                            <p>
+                              Our planets use the shiniest brass which is sourced locally. This
+                              will increase the longevity of your purchase.
+                            </p>
+                        </div>
+                        <div class="property">
+                            <img src="Style/images/shipping.png"  id="Shipping-logo" alt="Shipping-logo">
+                            <h2>Fast Shipping</h2>
+                            <p>
+                                We make sure you recieve your planet within 30 days, and provide free returns if you are not satisfied.</p>
+                        </div>
+                        <div class="property">
+                            <img src="Style/images/quality.png"  id="Quality-logo" alt="Quality-logo">
+                            <h2>Quality Assurance</h2>
+                            <p>
+                              For every purchase you make, we will ensure there are no damages or
+                              faults and we will check and test the pitch of your planet.</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
             <div>
-                <div>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1fUO3Xjlohc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
 
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
+            <div class="container-second">
+                <section id="pricing">
+                        <div class="grid">
+                            <div class="product" id="s-planet">
+                                <div class="level">Small Planet</div>
+                                <h2>$6.000</h2>
+                                <ol>
+                                  <li>Lorem ipsum.</li>
+                                  <li>Lorem ipsum.</li>
+                                  <li>Lorem ipsum dolor.</li>
+                                  <li>Lorem ipsum.</li>
+                                </ol>
+                                <button class="btn">Select</button>
+                              </div>
+                        </div>
+                        <div class="product" id="star">
+                            <div class="level">Star</div>
+                            <h2>$15.000</h2>
+                            <ol>
+                              <li>Lorem ipsum.</li>
+                              <li>Lorem ipsum.</li>
+                              <li>Lorem ipsum dolor.</li>
+                              <li>Lorem ipsum.</li>
+                            </ol>
+                            <button class="btn">Select</button>
+                          </div>
+                          <div class="product" id="black-h">
+                            <div class="level">Black Hole</div>
+                            <h2>$30.000</h2>
+                            <ol>
+                              <li>Lorem ipsum.</li>
+                              <li>Lorem ipsum.</li>
+                              <li>Lorem ipsum dolor.</li>
+                              <li>Lorem ipsum.</li>
+                            </ol>
+                            <button class="btn">Select</button>
+                          </div>
+                </section>
 
             </div>
-            <div id="video">
 
-            </div>
-            <div>
-                <div>
 
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-            </div>
         </body>
         <footer>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
+            <footer>
+                <p id="text-end">This page was made by Florencia Kania for <a href="https://www.freecodecamp.org" target="_blank"><img src="Style/images/logo-fcc.png" alt="Free Code Camp" title="Free Code Camp" id="logo-fcc"></a> and <a href="https://www.theodinproject.com/" target="_blank"><img src="Style/images/logo-op.png" alt="The Odin Project" title="The Odin Project" id="logo-fcc"></a></p>
+                <p id="text-end">I don't have social media, but I have a cool <a id="tumblr" href="https://whatfreak.tumblr.com/">Tumblr!</a></p>
+            </footer>
         </footer>
     </html>
